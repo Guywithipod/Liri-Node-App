@@ -4,6 +4,7 @@
   "description": "Liri is a command line prompt app that takes in parameters and gives you back data. In this case its songs, bands in town for concerts and omdb for movies.",
   "main": "Keys.js",
   "dependencies": {
+    "axios": "^0.19.0",
     "dotenv": "^8.1.0",
     "node-spotify-api": "^1.1.1"
   },

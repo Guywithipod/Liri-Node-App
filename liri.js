@@ -7,9 +7,7 @@ const Spotify = require('node-spotify-api');
  
 var spotify = new Spotify(keys.spotify);
  
-
 let track = process.argv[2]
-
 
 if (track === "spotify-this-song"){
 
@@ -51,4 +49,8 @@ if ( process.argv[3] === ""){
     .catch(function(err) {
       console.error('Error occurred: ' + err); 
     });
+  }
+
+  if (process.argv === "movie-this"){
+    require("movie.js")
   }
