@@ -4,6 +4,9 @@ to search for movies you call on liri then you type in movie-this followed by th
 
  here is the link to the git hub pages app repo. https://guywithipod.github.io/Liri-Node-App/.
 
+there is a screenshot of the working app titled liri screenshot.png
+
+
  the technologies used in the app are Axios, fs(built into vs code), the spotify api, the omdb api.
 
  My role in the devolopment of this app was everything! All of this code was written by me.
