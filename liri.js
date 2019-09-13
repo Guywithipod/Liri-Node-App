@@ -11,7 +11,7 @@ let track = process.argv[2]
 
 if(track === "movie-this"){
   var movies = require('./movie.js');
-  console.log( typeof movies.movieInfo());
+  console.log( typeof movies.movieInfo);
 }
 
 if (track === "spotify-this-song"){
