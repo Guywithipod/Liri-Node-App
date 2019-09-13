@@ -35,7 +35,7 @@ spotify
   });
 }
        
-if ( process.argv[3] === ""){
+if ( process.argv[3] === undefined){
 
   spotify
   .search({ type: 'track', query: "The Sign" })
